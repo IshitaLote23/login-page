@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            background-color: #9ac0d7;
+        }
+        #head{
+            font-size: 40px;
+            text-align: center;
+        }
+        input{
+            height: 30px;
+            width: 150px;
+            margin: 20px;
+            text-align: center;
+        }
+        button{
+             height: 30px;
+            width: 150px;
+            margin: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 id="head">Login Page</h1>
+    <div class="container">
+    <form action="/login" method="POST">
+        <input type="text" id="username" name="username" placeholder="Username">
+        <input type="password" id="password" name="password" placeholder="password"><br>
+        <button type="submit" id="submit">Login</button>
+    </form></div>
+</body>
+
+</html>

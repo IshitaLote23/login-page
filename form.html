@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ragistration form</title>
+    <style>
+        body{
+            background-color: rgb(188, 154, 110);
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+        }
+        input{
+            height: 30px;
+            width: 150px;
+            opacity:0.8 ;
+            position: relative;
+            left: 35%;
+            bottom:45%;
+            margin: 10px;
+            padding: 10px;
+        }
+        #submit{
+            height: 50px;
+            width: 150px;
+            margin: 10px;
+            padding: 10px;
+            position: relative;
+            left: 44%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/register" method="POST">
+        <input type="text" name="username" id="username"placeholder="Enter Your username">
+        <input type="text" name="FirstName" id="FirstName" placeholder="First Name">
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br>
+        <input type="number" name="number" id="number" placeholder="Mobile Number">
+        <input type="password" name="password" id="password" placeholder="password"><br>
+        <button type ="submit" id="submit" href="/login.html" >Submit</button>
+        <a href="login.html">Login </a>
+    </form>
+    
+</body>
+</html>
